@@ -1,0 +1,139 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+nav.navbar {
+  background-color: rgb(26, 34, 78);
+}
+
+nav.navbar .navbar-brand,
+nav.navbar .nav-link {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+nav.navbar .nav-link:hover {
+  color: rgb(26, 188, 156);
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  height: auto;
+  background-color: rgb(26, 188, 156);
+  color: #fff;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero img {
+  width: 20%;
+}
+
+/* Portfolio Section */
+#portfolio {
+  padding: 50px 0;
+}
+
+#portfolio h2 {
+  font-size: 2.5rem;
+  color: rgb(26, 34, 78);
+}
+
+#portfolio .content img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* About Section */
+#about {
+  color: #fff;
+  height: auto;
+  padding: 50px 0;
+}
+
+#about .backColor {
+  background-color: rgb(26, 188, 156);
+  padding: 20px
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#about p {
+  font-size: 1rem;
+}
+
+/* Contact Section */
+#contact {
+  padding: 50px 0;
+}
+
+#contact h2 {
+  font-size: 2.5rem;
+  color: rgb(26, 34, 78);
+}
+
+/* Footer */
+footer {
+  background-color: rgb(26, 34, 78);
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer h3 {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+
+footer p,
+footer span {
+  font-size: 0.875rem;
+}
+
+footer img {
+  width: 35px;
+  margin: 5px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+/* Utility Styles */
+button,
+.btn {
+  background-color: rgb(26, 188, 156);
+  border: none;
+  color: #fff;
+}
+
+button:hover,
+.btn:hover {
+  background-color: rgb(22, 158, 131);
+  cursor: pointer;
+}

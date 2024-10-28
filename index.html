@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Bootstrap-Project</title>
+</head>
+
+<body>
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Start Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END OF NAV -->
+
+    <!-- HERO SECTION -->
+    <section class="hero text-center py-5">
+        <div class="container">
+            <img id="banner" class="img-fluid" src="images/banner.png" alt="banner icon">
+            <div class="hero-inner mt-4">
+                <h1 class="display-4">START BOOTSTRAP</h1>
+                <img src="images/star.png" class="my-3" alt="star icon">
+                <p class="lead">Graphic Artist - Web Designer - Illustrator</p>
+            </div>
+        </div>
+    </section>
+    <!-- END OF HERO SECTION -->
+
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio" class="py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">PORTFOLIO</h2>
+            <img id="blueStar" class="img-fluid mb-4" src="images/blue-star.png" alt="blue star icon">
+            <div class="row">
+                <!-- Portfolio images in columns for responsiveness -->
+                <div class="col-md-4 mb-4">
+                    <img src="images/cabin.png" class="img-fluid rounded" alt="cabin">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="images/cake.png" class="img-fluid rounded" alt="cake">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="images/circus.png" class="img-fluid rounded" alt="circus">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="images/game.png" class="img-fluid rounded" alt="game">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="images/safe.png" class="img-fluid rounded" alt="safe">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="images/submarine.png" class="img-fluid rounded" alt="submarine">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF PORTFOLIO SECTION -->
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-5 text-white text-center">
+        <div class="container backColor">
+            <h2 class="mb-4">ABOUT</h2>
+            <img src="images/star.png" class="img-fluid mb-4" alt="star icon">
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the
+                        complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets
+                        for easy customization.</p>
+                </div>
+                <div class="col-md-5">
+                    <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add
+                        your email address to the contact form to make it fully functional.</p>
+                </div>
+            </div>
+            <button class="btn btn-outline-light mt-4"><img id="download" src="images/download.PNG" alt="download icon">
+                Free Download!</button>
+        </div>
+    </section>
+    <!-- END OF ABOUT SECTION -->
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">CONTACT</h2>
+            <img src="images/blue-star.png" class="img-fluid mb-4" alt="blue star icon">
+            <form class="w-75 mx-auto">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="email" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                    <input type="tel" class="form-control" id="tel" placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" id="message" name="message" placeholder="Message"
+                        rows="4"></textarea>
+                </div>
+                <button class="btn btn-info">Send</button>
+            </form>
+        </div>
+    </section>
+    <!-- END OF CONTACT SECTION -->
+
+    <!-- FOOTER SECTION -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4 mb-3">
+                    <h3>LOCATION</h3>
+                    <p>2215 John Daniel Drive, Clark MO 65243</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h3>AROUND THE WEB</h3>
+                    <div>
+                        <img src="images/facebook.png" class="mx-1" alt="Facebook">
+                        <img src="images/twitter.png" class="mx-1" alt="Twitter">
+                        <img src="images/linkedin.png" class="mx-1" alt="LinkedIn">
+                        <img src="images/global.png" class="mx-1" alt="Website">
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h3>ABOUT FREELANCER</h3>
+                    <p>Freelancer is a free to use, MIT licensed Bootstrap theme created by <span>Start
+                            Bootstrap</span>.</p>
+                </div>
+            </div>
+            <div class="text-center py-2">
+                <h4>Copyright &copy; My Website</h4>
+            </div>
+        </div>
+    </footer>
+    <!-- END OF FOOTER SECTION -->
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
